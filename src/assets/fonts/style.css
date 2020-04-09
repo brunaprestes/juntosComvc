@@ -39,4 +39,5 @@ i {
 }
 .jcvc-mini-logo:before {
 	content: "\e900";
+	color: rgba(252,252,252,.6)
 }
