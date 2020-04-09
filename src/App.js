@@ -33,8 +33,9 @@ function App() {
 						</div>
 					</nav>
 					{/*fim menu*/}
-
-					<img src={logo} className="logo" />
+					<a href="#">
+						<img src={logo} className="logo" />
+					</a>
 					<ul className="menu">
 						<li className="menu-item">
 							<a className="active" href="#home">
@@ -62,7 +63,7 @@ function App() {
 						impacto para conter os danos causados pela pandemia e o
 						distanciamento social.
 					</p>
-					<button className="btn-primary">Saiba mais</button>
+					<button className="btn-primary"><a href="#projeto">Saiba mais</a></button>
 				</div>
 				<i className="jcvc-mini-logo icon-backgroud"></i>
 			</header>
@@ -91,7 +92,7 @@ function App() {
 					<div className="action">
 						<i className="icon jcvc-video"></i>
 						<span className="round-line">&nbsp;</span>
-						<p className="discription">Web Happy Hours</p>
+						<p className="discription">Chatbot de atendimento</p>
 					</div>
 				</div>
 			</section>
@@ -114,9 +115,7 @@ function App() {
 				<button className="fale-conosco">Fale Conosco</button>
 			</section>
 			<footer className="footer"></footer>
-			<div className="boot">
 				<button className="exam-button">Auto Exame</button>
-			</div>
 		</div>
 	);
 }
